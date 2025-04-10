@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Tiktoks</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .tiktok-videos-section {
+            padding: 30px 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .tiktok-video-item {
+            margin-bottom: 25px;
+            text-align: center; /* Center the video and description */
+        }
+
+        .tiktok-video-container {
+            border-radius: 8px;
+            overflow: hidden; /* Clip video to rounded corners */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+            max-width: 600px; /* Adjust as needed */
+            width: 90%; /* Adjust as needed */
+            margin: 0 auto; /* Center the video container */
+        }
+
+        .tiktok-video-player {
+            width: 100%;
+            height: auto;
+            display: block; /* Prevent extra space below the video */
+        }
+
+        .tiktok-video-description {
+            color: #555;
+            margin-top: 10px;
+            font-size: 0.95em;
+            font-family: 'Cormorant Garamond', serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Tiktoks</h1>
+        <p class="tagline">Our fun short videos hosted here.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="our-story.html">Our Story</a></li>
+                <li><a href="moments/index1.html">Moments</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="favorites.html">Our Favorites</a></li>
+                <li><a href="tiktoks.html">Tiktoks</a></li>
+                <li><a href="photobooth.html">Photobooth</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tiktok-videos-section">
+            <h2>Watch Our Hosted Tiktoks</h2>
+
+            <div class="tiktok-video-item">
+                <div class="tiktok-video-container">
+                    <video class="tiktok-video-player" controls width="320" height="568">
+                        <source src="tiktok1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="tiktok-video-description">beteran beteran</p>
+            </div>
+
+            <div class="tiktok-video-item">
+                <div class="tiktok-video-container">
+                    <video class="tiktok-video-player" controls width="320" height="568">
+                        <source src="tiktok2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="tiktok-video-description">With Chocobells</p>
+            </div>
+
+            <div class="tiktok-video-item">
+                <div class="tiktok-video-container">
+                    <video class="tiktok-video-player" controls width="320" height="568">
+                        <source src="videos/travel-vlog.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="tiktok-video-description">A quick travel moment.</p>
+            </div>
+
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Your Names]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
