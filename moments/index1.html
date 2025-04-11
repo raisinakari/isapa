@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Moments</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .moments-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .moment-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .moment-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .moment-item a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .moment-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .moment-item h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #7e57c2; /* Darker light purple */
+        }
+
+        .moment-item .date {
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Moments</h1>
+        <p class="tagline">Reliving our special times.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="our-story.html">Our Story</a></li>
+                <li><a href="moments/index1.html">Moments</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="favorites.html">Our Favorites</a></li>
+                <li><a href="tiktoks.html">Tiktoks</a></li>
+                <li><a href="photobooth.html">Photobooth</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="moments-list">
+            <div class="moment-item">
+                <a href="moment1.html">
+                    <img src="../images/moment1-thumb.jpg" alt="Moment 1 Thumbnail">
+                    <h3>Our First Date</h3>
+                    <p class="date">October 26, 2024</p>
+                </a>
+            </div>
+            <div class="moment-item">
+                <a href="moment2.html">
+                    <img src="../images/moment2-thumb.jpg" alt="Moment 2 Thumbnail">
+                    <h3>First Kess</h3>
+                    <p class="date">February 14, 2025</p>
+                </a>
+            </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aeonie & Raizen</p>
+    </footer>
+</body>
+</html>
